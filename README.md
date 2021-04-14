@@ -1,8 +1,5 @@
-# [PT] Chatbot Simples com NLTK
+# Chatbot de FAQ Simples com NLTK e scikit-learn
 
-Um simples chatbot para responder perguntas frequentes sobre abertura de conta em um banco utilizando a biblioteca NLTK para Python. 
+Uma implementação simples de chatbot de FAQ, em que são utilizadas as ferramentas NLTK e scikit-learn. 
 
-
-# [EN] Simple Chatbot with NLTK
-
-A simple chatbot to answer frequently asked questions about opening a bank account using the NLTK library for Python.
+O princípio é simples, são utilizados o TF-IDF e a similaridade de cosseno para encontrar em um banco de respostas, a que for mais similar a pergunta do usuário. 
